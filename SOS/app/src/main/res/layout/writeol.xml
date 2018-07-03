@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/frame">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Open Letter"
+        android:id="@+id/textView8"
+        android:layout_marginTop="45dp"
+        android:textColor="#517cd8"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/edol1"
+        android:layout_alignStart="@+id/edol1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/edol1"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="119dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Anonymously"
+        android:id="@+id/anb1"
+        android:layout_below="@+id/edol1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:background="#ffffff"
+        android:textColor="#517cd8"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit with Username"
+        android:id="@+id/unb1"
+        android:layout_below="@+id/anb1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:textSize="20dp"
+        android:textColor="#517cd8"
+        android:background="#ffffff" />
+</RelativeLayout>

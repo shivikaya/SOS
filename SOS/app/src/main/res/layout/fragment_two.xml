@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/txt"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#0d0b0b"
+        android:textSize="48dp"
+        android:typeface="serif"
+        android:layout_weight="0.10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" User Name"
+        android:id="@+id/textView5"
+        android:layout_weight="0.10"
+        android:textColor="#517cd8"
+        android:textSize="22dp"
+        android:textStyle="normal"
+        android:typeface="normal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Password"
+        android:id="@+id/textView6"
+        android:layout_weight="0.10"
+        android:textSize="22dp"
+        android:textColor="#517cd8" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed5" />
+
+    <Button
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/disp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10"
+        android:textSize="22dp"
+        android:textColor="#517cd8"
+        android:typeface="serif"
+        android:background="#ffffff" />
+
+</LinearLayout>

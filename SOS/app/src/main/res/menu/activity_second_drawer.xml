@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_fo"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Picture" />
+        <item
+            android:id="@+id/nav_ol"
+
+            android:title="View OpenLetters" />
+        <item
+            android:id="@+id/nav_vp"
+
+            android:title="View Profile" />
+        <item
+            android:id="@+id/nav_di"
+
+            android:title="Discover" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_wol"
+
+                android:title="Write Openletter" />
+
+        </menu>
+    </item>
+
+</menu>

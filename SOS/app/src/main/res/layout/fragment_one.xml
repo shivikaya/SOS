@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+
+    >
+
+    <TextView
+        android:layout_width="218dp"
+        android:layout_height="44dp"
+        android:text="Sign Up"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+
+        android:textColor="#0d0b0b"
+        android:textSize="48dp"
+        android:layout_weight="0.32"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:text=" User Name"
+        android:id="@+id/textView2"
+        android:layout_weight="0.07"
+        android:textColor="#517cd8"
+        android:textSize="22dp" />
+
+    <EditText
+        android:layout_width="397dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed1"
+        android:typeface="sans"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:id="@+id/textView3"
+        android:layout_weight="0.07"
+        android:textColor="#517cd8"
+        android:textSize="22dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed2"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:id="@+id/textView4"
+        android:layout_weight="0.07"
+        android:textSize="22dp"
+        android:textColor="#517cd8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Provide Phone number to which you would like to send your location details in case of any danger."
+        android:id="@+id/textView7" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed3"
+        android:inputType="text" />
+
+    <Button
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/disp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.11"
+        android:textColor="#517cd8"
+        android:typeface="serif"
+        android:textSize="22dp"
+        android:background="#ffffff" />
+
+</LinearLayout>
